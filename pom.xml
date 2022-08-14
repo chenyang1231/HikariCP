@@ -283,9 +283,13 @@
             </executions>
             <configuration>
                <toolchains>
-                  <paths>
-                     <id>java</id>
-                  </paths>
+                  <!--<paths>
+                     <id>jdk</id>
+                  </paths>-->
+                  <jdk>
+                     <version>1.8</version>
+                     <vendor>sun</vendor>
+                  </jdk>
                </toolchains>
             </configuration>
          </plugin>
